@@ -1,0 +1,97 @@
+
+{
+"@context" : "http://schema.org",
+"@type" : "Movie",
+"@id" : "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
+"name" : "Wonder Woman 1984",
+"mainEntityOfPage" : "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
+"description": "&#39;Wonder Woman 1984&#39; llegará a la pantalla grande el próximo 5 de junio de 2020, de nuevo con la actriz israelí Gal Gadot en el papel de la Mujer Maravilla y Patty Jenkins detrás de las cámaras. La secuela de &#39;Wonder Woman&#39; contará además con el regreso de Chris Pine (&#39;Star Trek. Más allá&#39;) como Steve Trevor. La película sigue a Diana en su vida durante los años 80 en Estados Unidos. En esta ocasión, Diana se enfrentará a nuevos enemigos. Su principal antagonista es la arqueóloga británica Barbara Minerva, que será interpretada por Kristen Wigg (&#39;Cazafantasmas&#39;). La científica tiene un alter ego, la villana Cheetah que tiene una fuerza y agilidad sobrehumanas. Otro enemigo a tener en cuenta será el empresario Maxwel Lord, interpretado por Pedro Pascal (&#39;The Mandalorian&#39;). Este personaje es un arrogante con la habilidad de manipular a otros a su antojo. En los cómics, Max Lord tiene poderes mentales. También aparecen en esta cinta las guerreras amazonas Antiope (Robin Wright) y la Reina Hippolyta (Connie Nielsen).
+
+La trama de esta película es una gran misterio. El guión está basado en una historia escrita por Patty Jenkins, Geoff Johns (&#39;The Flash&#39;, &#39;Aquaman&#39;) y Dave Callaham (&#39;Zombieland: Mata y remata&#39;). Se espera que tenga protagonismo la tecnología y la vigilancia, teniendo en cuenta el título que hace referencia a la distopía de &#39;1984&#39; de George Orwell.",
+"duration": "PT2H31M",
+"image" : {
+	"@type" : "ImageObject",
+	"url" : "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg"
+	},
+"countryOfOrigin" : "EE.UU.",
+"genre" : ["Acción","Aventura","Fantasía"],
+"releasedEvent" : {
+	"@type" : "PublicationEvent",
+	"startDate" : "2020-12-18",
+	"location": {
+    	"@type": "Country",
+    	"name": "ES"
+    	}
+},
+"productionCompany" : {
+	"@type" : "Organization",
+	"name" : "Warner Bros. Pictures",
+	"mainEntityOfPage" : "https://www.ecartelera.com/empresas/warner-bros/"
+},
+"hasPart" : {
+	"@type" : "Clip",
+	"description" : "trailer",
+	"timeRequired" : "PT2M24S",
+	"potentialAction" : {
+		"@type" : "WatchAction",
+		"target": {
+        	"@type": "EntryPoint",
+        	"urlTemplate": "https://www.ecartelera.com/videos/trailer-espanol-wonder-woman-1984/",
+        	"inLanguage": "es",
+        	"actionPlatform": [
+          	"http://schema.org/DesktopWebPlatform",
+          	"http://schema.org/MobileWebPlatform",
+          	"http://schema.org/IOSPlatform",
+          	"http://schema.googleapis.com/GoogleVideoCast"
+        	]},
+		"expectsAcceptanceOf": {
+      		"@type": "Offer",
+      		"availabilityStarts": "2019-12-08 22:30:37",
+      		"category": "free",
+      		"eligibleRegion": {
+        		"@type": "Country",
+        		"name": "ES"
+      			}
+    		}
+	}
+},
+		"director" : [
+		{
+		"@type" : "Person",
+	    "name" : "Patty Jenkins",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/patty-jenkins/"
+	}			],
+		"actor" : [
+		{
+		"@type" : "Person",
+	    "name" : "Gal Gadot",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/gal-gadot/"
+	},			{
+		"@type" : "Person",
+	    "name" : "Kristen Wiig",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/kristen-wiig/"
+	},			{
+		"@type" : "Person",
+	    "name" : "Pedro Pascal",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/pedro-pascal/"
+	},			{
+		"@type" : "Person",
+	    "name" : "Chris Pine",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/chris-pine/"
+	},			{
+		"@type" : "Person",
+	    "name" : "Robin Wright",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/robin-wright/"
+	},			{
+		"@type" : "Person",
+	    "name" : "Connie Nielsen",
+	    "mainEntityOfPage" : "https://www.ecartelera.com/personas/connie-nielsen/"
+	}			]
+,"aggregateRating" : {
+	"@type" : "AggregateRating",
+	"bestRating" : "10",
+	"worstRating" : "0",
+	"ratingCount" : "20",
+	"ratingValue" : "7,6"
+	}
+}
